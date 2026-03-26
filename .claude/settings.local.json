@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/hareshramasamy/Workspace/Projects/liftingcoursediary/src -type f -name *.ts -o -name *.tsx -o -name *.json)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
