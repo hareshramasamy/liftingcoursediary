@@ -24,6 +24,12 @@ This is a **Next.js 16** app using the **App Router** with **React 19** and **Ta
 - Tailwind CSS 4 is configured via PostCSS (`@tailwindcss/postcss`), not a `tailwind.config.*` file — use `@theme` in CSS for customization
 - Dark mode is handled via CSS custom properties in `globals.css`, not Tailwind's `dark:` variant
 
+## Docs
+
+Before generating any code, always refer to the relevant docs file in the `/docs` directory first. These documents define the standards that all generated code must follow.
+
+- `/docs/ui.md` — UI component and date formatting standards
+
 ## Key differences from standard Next.js
 
 This project uses Next.js 16, which has breaking changes. Read guides in `node_modules/next/dist/docs/` before writing code. Key areas: App Router conventions, Server Components, routing APIs.
