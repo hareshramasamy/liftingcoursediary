@@ -4,7 +4,10 @@
       "Bash(find /Users/hareshramasamy/Workspace/Projects/liftingcoursediary/src -type f -name *.ts -o -name *.tsx -o -name *.json)",
       "Bash(npm install:*)",
       "mcp__neon__get_database_tables",
-      "mcp__neon__describe_table_schema"
+      "mcp__neon__describe_table_schema",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   },
   "enabledMcpjsonServers": [
